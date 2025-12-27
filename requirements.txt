@@ -1,4 +1,8 @@
+streamlit
 sentence-transformers
-torch
-numpy
 shap
+numpy
+python-dotenv
+groq
+torch
+transformers
