@@ -70,32 +70,13 @@ Streamlit Web Interface
 
 ---
 
-## Project Structure
-
-explainable-resume-screening/
-│
-├── app.py # Streamlit UI
-├── pipeline/
-│ └── inference.py # Main inference pipeline
-├── models/
-│ ├── embedding_model.py # Text embedding logic
-│ └── resume_scorer.py
-├── xai/
-│ ├── shap_explainer.py # SHAP-based explanations
-│ ├── counterfactuals.py # Skill improvement analysis
-│ └── groq_explainer.py # GenAI explanation layer
-├── utils/
-│ └── validators.py # Input validation
-├── requirements.txt
-└── README.md
 
 
----
 
 ## How to Run Locally
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/Yugansh-Varshney/explainable-resume-screening.git
 cd explainable-resume-screening
 
