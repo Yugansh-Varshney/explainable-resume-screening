@@ -1,5 +1,5 @@
 import numpy as np
-from embedding_model import EmbeddingModel
+from models.embedding_model import EmbeddingModel
 
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2)
