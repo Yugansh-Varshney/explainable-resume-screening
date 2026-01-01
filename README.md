@@ -4,6 +4,12 @@ An end-to-end **Explainable AI system** that evaluates how well a resume matches
 
 This project focuses on **interpretability, transparency, and responsible use of Generative AI**, rather than treating resume screening as a black box.
 
+## 🚀 Live Demo
+This project is deployed using Streamlit Cloud.
+
+👉 https://explainable-resume-screening.streamlit.app/
+
+
 ---
 
 ## Features
@@ -43,17 +49,29 @@ This system:
 ## High-Level Architecture
 
 Resume / Job Description
+
 ↓
+
 Text Embedding Model 
+
 ↓
+
 Semantic Similarity Scoring
+
 ↓
+
 Explainability (SHAP)
+
 ↓
+
 Counterfactual Skill Analysis
+
 ↓
+
 GenAI Explanation Layer
+
 ↓
+
 Streamlit Web Interface
 
 
@@ -80,20 +98,20 @@ Streamlit Web Interface
 git clone https://github.com/Yugansh-Varshney/explainable-resume-screening.git
 cd explainable-resume-screening
 
- 2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate
 
-3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-4. Set environment variables
+### 4. Set environment variables
 
 Create a .env file:
 
 GROQ_API_KEY=your_api_key_here
 
-5. Run the application
+### 5. Run the application
 streamlit run app.py
 
 
