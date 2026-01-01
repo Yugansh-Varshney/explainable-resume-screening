@@ -44,7 +44,7 @@ This system:
 
 Resume / Job Description
 ↓
-Text Embedding Model
+Text Embedding Model 
 ↓
 Semantic Similarity Scoring
 ↓

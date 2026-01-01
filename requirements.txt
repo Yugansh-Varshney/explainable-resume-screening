@@ -6,3 +6,5 @@ python-dotenv
 groq
 torch
 transformers
+pdfplumber
+python-docx
